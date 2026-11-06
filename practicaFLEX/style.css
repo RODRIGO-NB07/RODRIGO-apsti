@@ -1,4 +1,4 @@
-/* Quitar los márgenes predeterminados */
+/* Quitar los márgenes predeterminados */ FALTA AÑADIR LAS CLASES DE LOS ITEMS O HIJOS
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     background-color: #6c9be2;
     height: 110px;
 
-    display: flex;
+    display: flex;  NO FUNCIONA EL FLEX
     justify-content: space-between;
     align-items: center;
 
@@ -49,7 +49,7 @@ body {
     color: #ebeff3;
 }
 
-/* Adaptación para celulares */
+/* Adaptación para celulares */ NO SE PIDIO RESPONSIVO
 @media (max-width: 600px) {
 
     .navbar {
